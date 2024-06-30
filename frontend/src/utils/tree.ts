@@ -15,17 +15,6 @@ export const seed: TreeNode = {
         {
           id: "4",
           name: "2",
-          children: [
-            { id: "10", name: "1" },
-            {
-              id: "15",
-              name: "25",
-              children: [
-                { id: "50", name: "32" },
-                { id: "23", name: "1" },
-              ],
-            },
-          ],
         },
         {
           id: "6",
@@ -34,10 +23,6 @@ export const seed: TreeNode = {
             {
               id: "10",
               name: "1",
-              children: [
-                { id: "60", name: "1" },
-                { id: "9324", name: "50" },
-              ],
             },
             { id: "20", name: "20" },
           ],
