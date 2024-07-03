@@ -7,14 +7,14 @@ This project implements a full-stack application that allows users to edit a tre
 - **Frontend:** Next.js
 - **State Management:** React Context (optional)
 - **Backend:** NestJS
-- **Database:** (Replace with your chosen database)
+- **Database:** MongoDB
 
 ## Features
 
-- User Login/Authentication (placeholder, implement your preferred method)
+- User Login/Authentication
 - Tree Display with Node Editing
 - Database Integration for Persistent Data Storage
-- Username Context for Frontend State Management (optional)
+- Username Context for Frontend State Management
 
 ## Project Structure
 
@@ -42,6 +42,12 @@ cd backend && npm run start:dev
 
 ```bash
 cd frontend && npm run dev
+```
+
+6. Set Environment variables in backend/.env:
+
+```.env
+MONGO_URI=<Mongo-connection-string>
 ```
 
 6. Access the application in your browser (usually at http://localhost:3000).
